@@ -1,3 +1,5 @@
 gem 'rspec'
 gem 'appium_lib'
 gem 'selenium-webdriver'
+gem 'require_all'
+gem 'capybara'

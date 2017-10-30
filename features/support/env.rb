@@ -2,6 +2,11 @@ require 'Bundler'
 Bundler.require()
 require 'rspec/expectations'
 
+require_rel '../../lib/*.rb'
+require_rel '../../lib/pages/*.rb'
+
+include RSpec::Matchers
+
 def desired_capabilities
 	{
 		caps: {
