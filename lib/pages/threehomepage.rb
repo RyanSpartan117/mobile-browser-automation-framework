@@ -2,8 +2,8 @@ class Threehomepage
 
 	def initialize
 		@driver = $driver.driver
-		
 	end
+	
 	def goToPage
 		@driver.get("http://www.three.co.uk")
 	end

@@ -28,7 +28,6 @@ end
 # Use this to find the available driver methods
 # print @driver.methods.sort 
 
-
 class AppiumWorld; end
 
 Appium::promote_appium_methods(AppiumWorld)
