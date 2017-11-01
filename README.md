@@ -28,7 +28,7 @@ This isn't guaranteed to be correct and could need to be debugged to find the co
 
 commands like `which $ANDROID_HOME` could help you locate
 
-## Installation commands - OSX  
+## Installation commands - OSX  
 
 List of installation commands to paste into your terminal. Feel free to skip the ones that you already have installed.
 
@@ -41,7 +41,7 @@ rvm install ruby
 
 You can check with `ruby --version`
 
-#### Install RubyGems and Bundler:
+#### Install RubyGems and Bundler:
 
 ```
 gem update --system
