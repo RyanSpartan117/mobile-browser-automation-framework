@@ -91,7 +91,7 @@ If that doesn't work, you can try installing [Android Studio](https://developer.
 
 Once you've downloaded the project, go to the root directory of the project and run `bundle` to install all the gems used and their dependencies.  
 
-Connect your Android device via USB to your computer, wait 10 second and run `adb devies`. You should see your device connected to the computer. The project is made to take any non-specific Android, automatically find it's UDID and run the test.  
+Connect your Android device via USB to your computer, wait 10 second and run `adb devices`. You should see the connected device in your terminal. The project is made to take any non-specific Android, automatically find it's UDID and run the test.  
 
 To run the example test we use cucumber:  
 
