@@ -26,8 +26,6 @@ After you've saved this, restart your terminal.
 
 This isn't guaranteed to be correct and could need to be debugged to find the correct directory paths, we'll be using `appium-doctor` later on to diagnose if our system is ready to run Appium.
 
-commands like `which $ANDROID_HOME` could help you locate
-
 ## Installation commands - OSX  
 
 List of installation commands to paste into your terminal. Feel free to skip the ones that you already have installed.
