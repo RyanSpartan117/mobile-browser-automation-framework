@@ -26,9 +26,7 @@ After you've saved this, restart your terminal.
 
 This isn't guaranteed to be correct and could need to be debugged to find the correct directory paths, we'll be using `appium-doctor` later on to diagnose if our system is ready to run Appium.
 
-commands like `which $ANDROID_HOME` could help you locate
-
-## Installation commands - OSX  
+## Installation commands - OSX  
 
 List of installation commands to paste into your terminal. Feel free to skip the ones that you already have installed.
 
@@ -41,7 +39,7 @@ rvm install ruby
 
 You can check with `ruby --version`
 
-#### Install RubyGems and Bundler:
+#### Install RubyGems and Bundler:
 
 ```
 gem update --system
@@ -93,7 +91,7 @@ If that doesn't work, you can try installing [Android Studio](https://developer.
 
 Once you've downloaded the project, go to the root directory of the project and run `bundle` to install all the gems used and their dependencies.  
 
-Connect your Android device via USB to your computer, wait 10 second and run `adb devies`. You should see your device connected to the computer. The project is made to take any non-specific Android, automatically find it's UDID and run the test.  
+Connect your Android device via USB to your computer, wait 10 second and run `adb devices`. You should see the connected device in your terminal. The project is made to take any non-specific Android, automatically find it's UDID and run the test.  
 
 To run the example test we use cucumber:  
 
